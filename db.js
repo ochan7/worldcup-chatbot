@@ -1,6 +1,6 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
-const { Groups, Teams, Stadiums } = require("./models");
+const { Groups, Teams, Stadiums, Knockouts } = require("./models");
 const data = require("./resources/data.json");
 //Set up mongoose connection
 const mongoDB = process.env.MONGO_URI;
@@ -26,9 +26,19 @@ db.once("open", async () => {
           const groupDoc = data.groups[_id];
           new Groups({ ...groupDoc, _id }).save();
         }
+      })(),
+      (function() {
+        for (const _id in data.knockout) {
+          const knockoutDoc = data.knockout[_id];
+          new Knockouts({ ...knockoutDoc, _id }).save();
+        }
       })()
     ]);
   } catch (exception) {
     console.log("Exception", exception);
   }
 });
+
+setTimeout(() => {
+  process.exit();
+}, 2000);
