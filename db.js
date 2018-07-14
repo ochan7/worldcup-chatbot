@@ -16,18 +16,17 @@ const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error"));
 db.once("open", async () => {
   console.log("connection successful");
-  // await db.dropDatabase();
   try {
     db.dropDatabase();
     await Promise.all([
-      data.stadiums.forEach(stadium => {
-        const stadiumDoc = new Stadiums(stadium);
-        stadiumDoc.save();
-      }),
-      data.teams.forEach(team => {
-        const teamsDoc = new Teams(team);
-        teamsDoc.save();
-      })
+      data.stadiums.forEach(stadium => new Stadiums(stadium).save()),
+      data.teams.forEach(team => new Teams(team).save()),
+      (function() {
+        for (const _id in data.groups) {
+          const groupDoc = data.groups[_id];
+          new Groups({ ...groupDoc, _id }).save();
+        }
+      })()
     ]);
   } catch (exception) {
     console.log("Exception", exception);

@@ -638,7 +638,7 @@
       "matches": [
         {
           "name": 1,
-          "type": "group",
+          "_type": "group",
           "home_team": 1,
           "away_team": 2,
           "home_result": 5,
@@ -651,7 +651,7 @@
         },
         {
           "name": 2,
-          "type": "group",
+          "_type": "group",
           "home_team": 3,
           "away_team": 4,
           "home_result": 0,
@@ -664,7 +664,7 @@
         },
         {
           "name": 17,
-          "type": "group",
+          "_type": "group",
           "home_team": 1,
           "away_team": 3,
           "home_result": 3,
@@ -677,7 +677,7 @@
         },
         {
           "name": 18,
-          "type": "group",
+          "_type": "group",
           "home_team": 4,
           "away_team": 2,
           "home_result": 1,
@@ -690,7 +690,7 @@
         },
         {
           "name": 33,
-          "type": "group",
+          "_type": "group",
           "home_team": 4,
           "away_team": 1,
           "home_result": 3,
@@ -703,7 +703,7 @@
         },
         {
           "name": 34,
-          "type": "group",
+          "_type": "group",
           "home_team": 2,
           "away_team": 3,
           "home_result": 2,
@@ -723,7 +723,7 @@
       "matches": [
         {
           "name": 3,
-          "type": "group",
+          "_type": "group",
           "home_team": 5,
           "away_team": 6,
           "home_result": 3,
@@ -736,7 +736,7 @@
         },
         {
           "name": 4,
-          "type": "group",
+          "_type": "group",
           "home_team": 7,
           "away_team": 8,
           "home_result": 0,
@@ -749,7 +749,7 @@
         },
         {
           "name": 19,
-          "type": "group",
+          "_type": "group",
           "home_team": 5,
           "away_team": 7,
           "home_result": 1,
@@ -762,7 +762,7 @@
         },
         {
           "name": 20,
-          "type": "group",
+          "_type": "group",
           "home_team": 8,
           "away_team": 6,
           "home_result": 0,
@@ -775,7 +775,7 @@
         },
         {
           "name": 35,
-          "type": "group",
+          "_type": "group",
           "home_team": 8,
           "away_team": 5,
           "home_result": 1,
@@ -788,7 +788,7 @@
         },
         {
           "name": 36,
-          "type": "group",
+          "_type": "group",
           "home_team": 6,
           "away_team": 7,
           "home_result": 2,
@@ -808,7 +808,7 @@
       "matches": [
         {
           "name": 5,
-          "type": "group",
+          "_type": "group",
           "home_team": 9,
           "away_team": 10,
           "home_result": 2,
@@ -821,7 +821,7 @@
         },
         {
           "name": 6,
-          "type": "group",
+          "_type": "group",
           "home_team": 11,
           "away_team": 12,
           "home_result": 0,
@@ -834,7 +834,7 @@
         },
         {
           "name": 21,
-          "type": "group",
+          "_type": "group",
           "home_team": 9,
           "away_team": 11,
           "home_result": 1,
@@ -847,7 +847,7 @@
         },
         {
           "name": 22,
-          "type": "group",
+          "_type": "group",
           "home_team": 12,
           "away_team": 10,
           "home_result": 1,
@@ -860,7 +860,7 @@
         },
         {
           "name": 37,
-          "type": "group",
+          "_type": "group",
           "home_team": 12,
           "away_team": 9,
           "home_result": 0,
@@ -873,7 +873,7 @@
         },
         {
           "name": 38,
-          "type": "group",
+          "_type": "group",
           "home_team": 10,
           "away_team": 11,
           "home_result": 0,
@@ -893,7 +893,7 @@
       "matches": [
         {
           "name": 7,
-          "type": "group",
+          "_type": "group",
           "home_team": 13,
           "away_team": 14,
           "home_result": 1,
@@ -906,7 +906,7 @@
         },
         {
           "name": 8,
-          "type": "group",
+          "_type": "group",
           "home_team": 15,
           "away_team": 16,
           "home_result": 2,
@@ -919,7 +919,7 @@
         },
         {
           "name": 23,
-          "type": "group",
+          "_type": "group",
           "home_team": 13,
           "away_team": 15,
           "home_result": 0,
@@ -932,7 +932,7 @@
         },
         {
           "name": 24,
-          "type": "group",
+          "_type": "group",
           "home_team": 16,
           "away_team": 14,
           "home_result": 2,
@@ -945,7 +945,7 @@
         },
         {
           "name": 39,
-          "type": "group",
+          "_type": "group",
           "home_team": 16,
           "away_team": 13,
           "home_result": 1,
@@ -958,7 +958,7 @@
         },
         {
           "name": 40,
-          "type": "group",
+          "_type": "group",
           "home_team": 14,
           "away_team": 15,
           "home_result": 1,
@@ -978,7 +978,7 @@
       "matches": [
         {
           "name": 9,
-          "type": "group",
+          "_type": "group",
           "home_team": 17,
           "away_team": 18,
           "home_result": 1,
@@ -991,7 +991,7 @@
         },
         {
           "name": 10,
-          "type": "group",
+          "_type": "group",
           "home_team": 19,
           "away_team": 20,
           "home_result": 0,
@@ -1004,7 +1004,7 @@
         },
         {
           "name": 25,
-          "type": "group",
+          "_type": "group",
           "home_team": 17,
           "away_team": 19,
           "home_result": 2,
@@ -1017,7 +1017,7 @@
         },
         {
           "name": 26,
-          "type": "group",
+          "_type": "group",
           "home_team": 20,
           "away_team": 18,
           "home_result": 1,
@@ -1030,7 +1030,7 @@
         },
         {
           "name": 41,
-          "type": "group",
+          "_type": "group",
           "home_team": 20,
           "away_team": 17,
           "home_result": 0,
@@ -1043,7 +1043,7 @@
         },
         {
           "name": 42,
-          "type": "group",
+          "_type": "group",
           "home_team": 18,
           "away_team": 19,
           "home_result": 2,
@@ -1063,7 +1063,7 @@
       "matches": [
         {
           "name": 11,
-          "type": "group",
+          "_type": "group",
           "home_team": 21,
           "away_team": 22,
           "home_result": 0,
@@ -1076,7 +1076,7 @@
         },
         {
           "name": 12,
-          "type": "group",
+          "_type": "group",
           "home_team": 23,
           "away_team": 24,
           "home_result": 1,
@@ -1089,7 +1089,7 @@
         },
         {
           "name": 27,
-          "type": "group",
+          "_type": "group",
           "home_team": 21,
           "away_team": 23,
           "home_result": 2,
@@ -1102,7 +1102,7 @@
         },
         {
           "name": 28,
-          "type": "group",
+          "_type": "group",
           "home_team": 24,
           "away_team": 22,
           "home_result": 1,
@@ -1115,7 +1115,7 @@
         },
         {
           "name": 43,
-          "type": "group",
+          "_type": "group",
           "home_team": 24,
           "away_team": 21,
           "home_result": 2,
@@ -1128,7 +1128,7 @@
         },
         {
           "name": 44,
-          "type": "group",
+          "_type": "group",
           "home_team": 22,
           "away_team": 23,
           "home_result": 0,
@@ -1148,7 +1148,7 @@
       "matches": [
         {
           "name": 13,
-          "type": "group",
+          "_type": "group",
           "home_team": 25,
           "away_team": 26,
           "home_result": 3,
@@ -1161,7 +1161,7 @@
         },
         {
           "name": 14,
-          "type": "group",
+          "_type": "group",
           "home_team": 27,
           "away_team": 28,
           "home_result": 1,
@@ -1174,7 +1174,7 @@
         },
         {
           "name": 29,
-          "type": "group",
+          "_type": "group",
           "home_team": 25,
           "away_team": 27,
           "home_result": 5,
@@ -1187,7 +1187,7 @@
         },
         {
           "name": 30,
-          "type": "group",
+          "_type": "group",
           "home_team": 28,
           "away_team": 26,
           "home_result": 6,
@@ -1200,7 +1200,7 @@
         },
         {
           "name": 45,
-          "type": "group",
+          "_type": "group",
           "home_team": 28,
           "away_team": 25,
           "home_result": 0,
@@ -1213,7 +1213,7 @@
         },
         {
           "name": 46,
-          "type": "group",
+          "_type": "group",
           "home_team": 26,
           "away_team": 27,
           "home_result": 1,
@@ -1233,7 +1233,7 @@
       "matches": [
         {
           "name": 15,
-          "type": "group",
+          "_type": "group",
           "home_team": 29,
           "away_team": 30,
           "home_result": 1,
@@ -1246,7 +1246,7 @@
         },
         {
           "name": 16,
-          "type": "group",
+          "_type": "group",
           "home_team": 31,
           "away_team": 32,
           "home_result": 1,
@@ -1259,7 +1259,7 @@
         },
         {
           "name": 31,
-          "type": "group",
+          "_type": "group",
           "home_team": 29,
           "away_team": 31,
           "home_result": 0,
@@ -1272,7 +1272,7 @@
         },
         {
           "name": 32,
-          "type": "group",
+          "_type": "group",
           "home_team": 32,
           "away_team": 30,
           "home_result": 2,
@@ -1285,7 +1285,7 @@
         },
         {
           "name": 47,
-          "type": "group",
+          "_type": "group",
           "home_team": 32,
           "away_team": 29,
           "home_result": 0,
@@ -1298,7 +1298,7 @@
         },
         {
           "name": 48,
-          "type": "group",
+          "_type": "group",
           "home_team": 30,
           "away_team": 31,
           "home_result": 0,
@@ -1318,7 +1318,7 @@
       "matches": [
         {
           "name": 49,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 4,
           "away_team": 5,
           "home_result": 2,
@@ -1334,7 +1334,7 @@
         },
         {
           "name": 50,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 9,
           "away_team": 13,
           "home_result": 4,
@@ -1350,7 +1350,7 @@
         },
         {
           "name": 51,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 6,
           "away_team": 1,
           "home_result": 1,
@@ -1366,7 +1366,7 @@
         },
         {
           "name": 52,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 15,
           "away_team": 12,
           "home_result": 1,
@@ -1382,7 +1382,7 @@
         },
         {
           "name": 53,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 17,
           "away_team": 22,
           "home_result": 2,
@@ -1398,7 +1398,7 @@
         },
         {
           "name": 54,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 25,
           "away_team": 32,
           "home_result": 3,
@@ -1414,7 +1414,7 @@
         },
         {
           "name": 55,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 23,
           "away_team": 18,
           "home_result": 1,
@@ -1430,7 +1430,7 @@
         },
         {
           "name": 56,
-          "type": "qualified",
+          "_type": "qualified",
           "home_team": 31,
           "away_team": 28,
           "home_result": 1,
@@ -1451,7 +1451,7 @@
       "matches": [
         {
           "name": 57,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 4,
           "away_team": 9,
           "home_result": 0,
@@ -1467,7 +1467,7 @@
         },
         {
           "name": 58,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 17,
           "away_team": 25,
           "home_result": 1,
@@ -1483,7 +1483,7 @@
         },
         {
           "name": 59,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 1,
           "away_team": 15,
           "home_result": 2,
@@ -1499,7 +1499,7 @@
         },
         {
           "name": 60,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 23,
           "away_team": 28,
           "home_result": 0,
@@ -1520,7 +1520,7 @@
       "matches": [
         {
           "name": 61,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 9,
           "away_team": 25,
           "home_result": 1,
@@ -1536,7 +1536,7 @@
         },
         {
           "name": 62,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 15,
           "away_team": 28,
           "home_result": 2,
@@ -1557,7 +1557,7 @@
       "matches": [
         {
           "name": 63,
-          "type": "loser",
+          "_type": "loser",
           "home_team": 25,
           "away_team": 28,
           "home_result": null,
@@ -1578,7 +1578,7 @@
       "matches": [
         {
           "name": 64,
-          "type": "winner",
+          "_type": "winner",
           "home_team": 9,
           "away_team": 15,
           "home_result": null,

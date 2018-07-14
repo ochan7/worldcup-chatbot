@@ -2,12 +2,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 module.exports = mongoose.model(
-  "groups",
+  "knockouts",
   new Schema({
     _id: String,
     name: String,
-    winner: Number,
-    runnerup: Number,
     matches: [
       {
         name: Number,
@@ -16,6 +14,9 @@ module.exports = mongoose.model(
         away_team: Number,
         home_result: Number,
         away_result: Number,
+        home_penalty: Mixed,
+        away_penalty: Mixed,
+        winner: Number,
         date: Date,
         stadium: Number,
         channels: [Number],
