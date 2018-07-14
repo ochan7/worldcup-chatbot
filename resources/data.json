@@ -1,7 +1,7 @@
 {
   "stadiums": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "Luzhniki Stadium",
       "city": "Moscow",
       "lat": 55.715765,
@@ -10,7 +10,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/e/e6/Luzhniki_Stadium%2C_Moscow.jpg"
     },
     {
-      "id": 2,
+      "_id": 2,
       "name": "Otkrytiye Arena",
       "city": "Moscow",
       "lat": 55.817765,
@@ -19,7 +19,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/5/50/Stadium_Spartak_in_Moscow.jpg"
     },
     {
-      "id": 3,
+      "_id": 3,
       "name": "Krestovsky Stadium",
       "city": "Saint Petersburg",
       "lat": 59.97274,
@@ -28,7 +28,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spb_06-2017_img40_Krestovsky_Stadium.jpg"
     },
     {
-      "id": 4,
+      "_id": 4,
       "name": "Kaliningrad Stadium",
       "city": "Kaliningrad",
       "lat": 54.698157,
@@ -37,7 +37,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaliningrad_stadium_-_2018-04-07.jpg"
     },
     {
-      "id": 5,
+      "_id": 5,
       "name": "Kazan Arena",
       "city": "Kazan",
       "lat": 55.820983,
@@ -46,7 +46,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kazan_Arena_08-2016.jpg"
     },
     {
-      "id": 6,
+      "_id": 6,
       "name": "Nizhny Novgorod Stadium",
       "city": "Nizhny Novgorod",
       "lat": 56.337287,
@@ -55,7 +55,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/9/90/Nizhny_Novgorod_Stadium_%28March_2018%29.jpg"
     },
     {
-      "id": 7,
+      "_id": 7,
       "name": "Cosmos Arena",
       "city": "Samara",
       "lat": 53.278146,
@@ -63,7 +63,7 @@
       "image": "http://img.fifa.com/image/upload/t_l4/d0mymt1ubl2pypmu3gn3.jpg"
     },
     {
-      "id": 8,
+      "_id": 8,
       "name": "Volgograd Arena",
       "city": "Volgograd",
       "lat": 48.734195,
@@ -72,7 +72,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/6/61/Construction_of_Volgograd_Arena_inside_04.jpg"
     },
     {
-      "id": 9,
+      "_id": 9,
       "name": "Mordovia Arena",
       "city": "Saransk",
       "lat": 54.181795,
@@ -81,7 +81,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/4/45/Match_at_Mordovia_Arena_stadium.jpg"
     },
     {
-      "id": 10,
+      "_id": 10,
       "name": "Rostov Arena",
       "city": "Rostov-on-Don",
       "lat": 47.209581,
@@ -90,7 +90,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/9/94/Rostov-Arens_%28april_2018%29_01.jpg"
     },
     {
-      "id": 11,
+      "_id": 11,
       "name": "Fisht Olympic Stadium",
       "city": "Sochi",
       "lat": 43.402011,
@@ -99,7 +99,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/5/55/Fisht_Stadium_in_January_2018.jpg"
     },
     {
-      "id": 12,
+      "_id": 12,
       "name": "Central Stadium",
       "city": "Yekaterinburg",
       "lat": 56.83249,
@@ -110,7 +110,7 @@
   ],
   "tvchannels": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "DR1",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/8/88/DR1_logo_2013.svg",
@@ -119,7 +119,7 @@
       "lang": ["da"]
     },
     {
-      "id": 2,
+      "_id": 2,
       "name": "TV2",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/8/85/Danish_TV_2_logo.png",
@@ -128,7 +128,7 @@
       "lang": ["da"]
     },
     {
-      "id": 3,
+      "_id": 3,
       "name": "BBC UK",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/e/eb/BBC.svg",
       "country": "UK",
@@ -136,7 +136,7 @@
       "lang": ["en"]
     },
     {
-      "id": 4,
+      "_id": 4,
       "name": "ITV UK",
       "icon":
         "https://upload.wikimedia.org/wikipedia/en/9/92/ITV_logo_2013.svg",
@@ -145,7 +145,7 @@
       "lang": ["en"]
     },
     {
-      "id": 5,
+      "_id": 5,
       "name": "ITV4 UK",
       "icon":
         "https://upload.wikimedia.org/wikipedia/en/9/92/ITV_logo_2013.svg",
@@ -154,7 +154,7 @@
       "lang": ["en"]
     },
     {
-      "id": 6,
+      "_id": 6,
       "name": "Cuatro",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/f/f8/Logotipo_de_Cuatro.svg",
@@ -163,7 +163,7 @@
       "lang": ["es"]
     },
     {
-      "id": 7,
+      "_id": 7,
       "name": "Telecinco",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/7/75/Telecinco_2012.png",
@@ -172,7 +172,7 @@
       "lang": ["es"]
     },
     {
-      "id": 8,
+      "_id": 8,
       "name": "Globo",
       "icon":
         "https://upload.wikimedia.org/wikipedia/pt/2/22/Logotipo_da_Rede_Globo.png",
@@ -181,7 +181,7 @@
       "lang": ["pt-br"]
     },
     {
-      "id": 9,
+      "_id": 9,
       "name": "SportTV",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/SporTV_2017_logo.svg/692px-SporTV_2017_logo.svg.png",
@@ -190,7 +190,7 @@
       "lang": ["pt-br"]
     },
     {
-      "id": 10,
+      "_id": 10,
       "name": "SportTV2",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SporTV_2_2017_logo.svg/664px-SporTV_2_2017_logo.svg.png",
@@ -199,7 +199,7 @@
       "lang": ["pt-br"]
     },
     {
-      "id": 11,
+      "_id": 11,
       "name": "SportTV3",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SporTV_3_2017_logo.svg/703px-SporTV_3_2017_logo.svg.png",
@@ -208,7 +208,7 @@
       "lang": ["pt-br"]
     },
     {
-      "id": 12,
+      "_id": 12,
       "name": "Sony Ten",
       "icon":
         "https://upload.wikimedia.org/wikipedia/en/5/5f/Sony_TEN_logo.png",
@@ -217,7 +217,7 @@
       "lang": ["en"]
     },
     {
-      "id": 13,
+      "_id": 13,
       "name": "Fox",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg",
@@ -226,7 +226,7 @@
       "lang": ["en"]
     },
     {
-      "id": 14,
+      "_id": 14,
       "name": "FS1",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/3/37/2015_Fox_Sports_1_logo.svg",
@@ -235,25 +235,25 @@
       "lang": ["en"]
     },
     {
-      "id": 15,
+      "_id": 15,
       "name": "TransTV",
       "icon":
         "https://upload.wikimedia.org/wikipedia/id/6/62/Trans_TV_2013.svg",
       "country": "Indonesia",
-      "iso2": "id",
-      "lang": ["id"]
+      "iso2": "_id",
+      "lang": ["_id"]
     },
     {
-      "id": 16,
+      "_id": 16,
       "name": "Trans7",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/8/8c/Trans_7_2013_Iklan.svg",
       "country": "Indonesia",
-      "iso2": "id",
-      "lang": ["id"]
+      "iso2": "_id",
+      "lang": ["_id"]
     },
     {
-      "id": 17,
+      "_id": 17,
       "name": "ARD",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/6/68/ARD_logo.svg",
@@ -262,7 +262,7 @@
       "lang": ["de"]
     },
     {
-      "id": 18,
+      "_id": 18,
       "name": "ZDF",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/c/c1/ZDF_logo.svg",
@@ -271,7 +271,7 @@
       "lang": ["de"]
     },
     {
-      "id": 19,
+      "_id": 19,
       "name": "ONE",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/1/16/One_TV_Logo.svg",
@@ -280,7 +280,7 @@
       "lang": ["de"]
     },
     {
-      "id": 20,
+      "_id": 20,
       "name": "TVP 1",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/TVP1_logo.svg/2000px-TVP1_logo.svg.png",
@@ -289,7 +289,7 @@
       "lang": ["pl"]
     },
     {
-      "id": 21,
+      "_id": 21,
       "name": "TVP 2",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TVP2_logo.svg/2000px-TVP2_logo.svg.png",
@@ -298,7 +298,7 @@
       "lang": ["pl"]
     },
     {
-      "id": 22,
+      "_id": 22,
       "name": "TVP SPORT",
       "icon":
         "https://upload.wikimedia.org/wikipedia/commons/7/76/NewTVP_SPORT.png",
@@ -309,7 +309,7 @@
   ],
   "teams": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "Russia",
       "fifaCode": "RUS",
       "iso2": "ru",
@@ -319,7 +319,7 @@
       "emojiString": "\ud83c\uddf7\ud83c\uddfa"
     },
     {
-      "id": 2,
+      "_id": 2,
       "name": "Saudi Arabia",
       "fifaCode": "KSA",
       "iso2": "sa",
@@ -329,7 +329,7 @@
       "emojiString": "\ud83c\uddf8\ud83c\udde6"
     },
     {
-      "id": 3,
+      "_id": 3,
       "name": "Egypt",
       "fifaCode": "EGY",
       "iso2": "eg",
@@ -339,7 +339,7 @@
       "emojiString": "\ud83c\uddea\ud83c\uddec"
     },
     {
-      "id": 4,
+      "_id": 4,
       "name": "Uruguay",
       "fifaCode": "URU",
       "iso2": "uy",
@@ -349,7 +349,7 @@
       "emojiString": "\ud83c\uddfa\ud83c\uddfe"
     },
     {
-      "id": 5,
+      "_id": 5,
       "name": "Portugal",
       "fifaCode": "POR",
       "iso2": "pt",
@@ -359,7 +359,7 @@
       "emojiString": "\ud83c\uddf5\ud83c\uddf9"
     },
     {
-      "id": 6,
+      "_id": 6,
       "name": "Spain",
       "fifaCode": "ESP",
       "iso2": "es",
@@ -369,7 +369,7 @@
       "emojiString": "\ud83c\uddea\ud83c\uddf8"
     },
     {
-      "id": 7,
+      "_id": 7,
       "name": "Morocco",
       "fifaCode": "MAR",
       "iso2": "ma",
@@ -379,7 +379,7 @@
       "emojiString": "\ud83c\uddf2\ud83c\udde6"
     },
     {
-      "id": 8,
+      "_id": 8,
       "name": "Iran",
       "fifaCode": "IRN",
       "iso2": "ir",
@@ -389,7 +389,7 @@
       "emojiString": "\ud83c\uddee\ud83c\uddf7"
     },
     {
-      "id": 9,
+      "_id": 9,
       "name": "France",
       "fifaCode": "FRA",
       "iso2": "fr",
@@ -399,7 +399,7 @@
       "emojiString": "\ud83c\uddeb\ud83c\uddf7"
     },
     {
-      "id": 10,
+      "_id": 10,
       "name": "Australia",
       "fifaCode": "AUS",
       "iso2": "au",
@@ -409,7 +409,7 @@
       "emojiString": "\ud83c\udde6\ud83c\uddfa"
     },
     {
-      "id": 11,
+      "_id": 11,
       "name": "Peru",
       "fifaCode": "PER",
       "iso2": "pe",
@@ -419,7 +419,7 @@
       "emojiString": "\ud83c\uddf5\ud83c\uddea"
     },
     {
-      "id": 12,
+      "_id": 12,
       "name": "Denmark",
       "fifaCode": "DEN",
       "iso2": "dk",
@@ -429,7 +429,7 @@
       "emojiString": "\ud83c\udde9\ud83c\uddf0"
     },
     {
-      "id": 13,
+      "_id": 13,
       "name": "Argentina",
       "fifaCode": "ARG",
       "iso2": "ar",
@@ -439,7 +439,7 @@
       "emojiString": "\ud83c\udde6\ud83c\uddf7"
     },
     {
-      "id": 14,
+      "_id": 14,
       "name": "Iceland",
       "fifaCode": "ISL",
       "iso2": "is",
@@ -449,7 +449,7 @@
       "emojiString": "\ud83c\uddee\ud83c\uddf8"
     },
     {
-      "id": 15,
+      "_id": 15,
       "name": "Croatia",
       "fifaCode": "CRO",
       "iso2": "hr",
@@ -459,7 +459,7 @@
       "emojiString": "\ud83c\udded\ud83c\uddf7"
     },
     {
-      "id": 16,
+      "_id": 16,
       "name": "Nigeria",
       "fifaCode": "NGA",
       "iso2": "ng",
@@ -469,7 +469,7 @@
       "emojiString": "\ud83c\uddf3\ud83c\uddec"
     },
     {
-      "id": 17,
+      "_id": 17,
       "name": "Brazil",
       "fifaCode": "BRA",
       "iso2": "br",
@@ -479,7 +479,7 @@
       "emojiString": "\ud83c\udde7\ud83c\uddf7"
     },
     {
-      "id": 18,
+      "_id": 18,
       "name": "Switzerland",
       "fifaCode": "SUI",
       "iso2": "ch",
@@ -489,7 +489,7 @@
       "emojiString": "\ud83c\udde8\ud83c\udded"
     },
     {
-      "id": 19,
+      "_id": 19,
       "name": "Costa Rica",
       "fifaCode": "CRC",
       "iso2": "cr",
@@ -499,7 +499,7 @@
       "emojiString": "\ud83c\udde8\ud83c\uddf7"
     },
     {
-      "id": 20,
+      "_id": 20,
       "name": "Serbia",
       "fifaCode": "SRB",
       "iso2": "rs",
@@ -509,7 +509,7 @@
       "emojiString": "\ud83c\uddf7\ud83c\uddf8"
     },
     {
-      "id": 21,
+      "_id": 21,
       "name": "Germany",
       "fifaCode": "GER",
       "iso2": "de",
@@ -519,7 +519,7 @@
       "emojiString": "\ud83c\udde9\ud83c\uddea"
     },
     {
-      "id": 22,
+      "_id": 22,
       "name": "Mexico",
       "fifaCode": "MEX",
       "iso2": "mx",
@@ -529,7 +529,7 @@
       "emojiString": "\ud83c\uddf2\ud83c\uddfd"
     },
     {
-      "id": 23,
+      "_id": 23,
       "name": "Sweden",
       "fifaCode": "SWE",
       "iso2": "se",
@@ -539,7 +539,7 @@
       "emojiString": "\ud83c\uddf8\ud83c\uddea"
     },
     {
-      "id": 24,
+      "_id": 24,
       "name": "South Korea",
       "fifaCode": "KOR",
       "iso2": "kr",
@@ -549,7 +549,7 @@
       "emojiString": "\ud83c\uddf0\ud83c\uddf7"
     },
     {
-      "id": 25,
+      "_id": 25,
       "name": "Belgium",
       "fifaCode": "BEL",
       "iso2": "be",
@@ -559,7 +559,7 @@
       "emojiString": "\ud83c\udde7\ud83c\uddea"
     },
     {
-      "id": 26,
+      "_id": 26,
       "name": "Panama",
       "fifaCode": "PAN",
       "iso2": "pa",
@@ -569,7 +569,7 @@
       "emojiString": "\ud83c\uddf5\ud83c\udde6"
     },
     {
-      "id": 27,
+      "_id": 27,
       "name": "Tunisia",
       "fifaCode": "TUN",
       "iso2": "tn",
@@ -579,7 +579,7 @@
       "emojiString": "\ud83c\uddf9\ud83c\uddf3"
     },
     {
-      "id": 28,
+      "_id": 28,
       "name": "England",
       "fifaCode": "ENG",
       "iso2": "gb-eng",
@@ -590,7 +590,7 @@
         "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f"
     },
     {
-      "id": 29,
+      "_id": 29,
       "name": "Poland",
       "fifaCode": "POL",
       "iso2": "pl",
@@ -600,7 +600,7 @@
       "emojiString": "\ud83c\uddf5\ud83c\uddf1"
     },
     {
-      "id": 30,
+      "_id": 30,
       "name": "Senegal",
       "fifaCode": "SEN",
       "iso2": "sn",
@@ -610,7 +610,7 @@
       "emojiString": "\ud83c\uddf8\ud83c\uddf3"
     },
     {
-      "id": 31,
+      "_id": 31,
       "name": "Colombia",
       "fifaCode": "COL",
       "iso2": "co",
@@ -620,7 +620,7 @@
       "emojiString": "\ud83c\udde8\ud83c\uddf4"
     },
     {
-      "id": 32,
+      "_id": 32,
       "name": "Japan",
       "fifaCode": "JPN",
       "iso2": "jp",
