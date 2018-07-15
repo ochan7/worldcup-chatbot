@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const router = require("./routes");
 const cors = require("cors");
-const { DB, PORT } = require("./configuration");
+const DB = require("firebase-functions").config().db.url;
 mongoose.Promise = global.Promise;
 
 try {
