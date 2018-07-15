@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-const { Groups, Teams, Stadiums, Knockouts } = require("./models");
-const data = require("./resources/data.json");
+const { Groups, Teams, Stadiums, Knockouts } = require("./functions/models");
+const data = require("./functions/resources/data.json");
 //Set up mongoose connection
-const { DB } = require("./configuration");
+const { DB } = require("./functions/configuration");
 //Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;
 mongoose.connect(

@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: "./functions/.env" });
 
 module.exports = {
   DB: process.env.MONGO_URI,
