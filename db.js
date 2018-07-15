@@ -1,14 +1,12 @@
-require("dotenv").config();
 const mongoose = require("mongoose");
 const { Groups, Teams, Stadiums, Knockouts } = require("./models");
 const data = require("./resources/data.json");
 //Set up mongoose connection
-const mongoDB = process.env.MONGO_URI;
-
+const { DB } = require("./configuration");
 //Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  process.env.MONGO_URI,
+  DB,
   { useNewUrlParser: true }
 );
 
