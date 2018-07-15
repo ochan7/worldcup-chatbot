@@ -23,4 +23,4 @@ app.use("/*", (req, res) =>
   res.status(404).send({ message: "Page not found" })
 );
 app.use((err, req, res) => res.status(404).send({ err }));
-app.listen(PORT, () => console.log(`listening on port ${PORT}`));
+module.exports = app;

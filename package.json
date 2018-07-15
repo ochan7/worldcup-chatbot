@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node db.js",
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "mongodb": "^3.1.1",
-    "mongoose": "^5.2.3"
+    "mongoose": "^5.2.3",
+    "nodemon": "^1.18.2"
   },
   "devDependencies": {}
 }
