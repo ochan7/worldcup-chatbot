@@ -1,4 +1,6 @@
 module.exports = {
   getAllGroups: require("./getAllGroups"),
-  getGroupById: require("./getGroupById")
+  getGroupById: require("./getGroupById"),
+  getAllTeams: require("./getAllTeams"),
+  getTeamById: require("./getTeamById")
 };
