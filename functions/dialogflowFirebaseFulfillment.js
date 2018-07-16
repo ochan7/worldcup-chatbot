@@ -17,8 +17,14 @@ module.exports = (request, response) => {
       `Otkrytiye Arena, Luzhniki Stadium, Krestovsky Stadium, Kazan Arena, Kaliningrad Stadium, Nizhny Novgorod Stadium, Mordovia Arena, Volgograd Arena, Cosmos Arena, Rostov Arena, Fisht Olympic Stadium and Central Stadium`
     );
   }
+  function listTeams(agent) {
+    agent.add(
+      "Argentina, Australia, Belgium, Brazil, Colombia, Costa Rica, Croatia, Denmark, Egypt, England, France, Germany, Iceland, Iran, Japan, Korea Republic, Mexico, Morocco, Nigeria, Panama, Peru, Poland, Portugal, Russia, Saudi Arabia, Senegal, Serbia, Spain, Sweden, Switzerland, Tunisia and Uruguay"
+    );
+  }
   let intentMap = new Map();
   intentMap.set("Default Fallback Intent", fallback);
   intentMap.set("WhichStadiumsPlayed", listStadiums);
+  intentMap.set("WhichTeams", listTeams);
   agent.handleRequest(intentMap);
 };
