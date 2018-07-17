@@ -7,7 +7,9 @@ let {
   listStadiums,
   listTeams,
   listStage,
-  listInGroup
+  listInGroup,
+  finishedInPosition,
+  listPlayers
 } = require("./fulfillments");
 
 process.env.DEBUG = "dialogflow:debug";
@@ -23,6 +25,8 @@ module.exports = (request, response) => {
   intentMap.set("WhichTeams", listTeams);
   intentMap.set("WhoWereInThe", listStage(request));
   intentMap.set("WhichCountriesInGroup", listInGroup(request));
+  intentMap.set("WhoCameIn", finishedInPosition(request));
+  intentMap.set("FavouriteTeam-Players", listPlayers(request));
 
   agent.handleRequest(intentMap);
 };

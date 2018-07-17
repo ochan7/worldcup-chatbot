@@ -3,5 +3,7 @@ module.exports = {
   listStadiums: require("./listStadiums"),
   listTeams: require("./listTeams"),
   listStage: require("./listStage"),
-  listInGroup: require("./listInGroup")
+  listInGroup: require("./listInGroup"),
+  finishedInPosition: require("./finishedInPosition"),
+  listPlayers: require("./listPlayers")
 };
