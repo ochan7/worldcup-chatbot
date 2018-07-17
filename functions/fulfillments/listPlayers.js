@@ -1,10 +1,11 @@
 const matches = require("../resources/matches.json");
+const { processCountry } = require("../utils");
+
 module.exports = request => agent => {
-  const country =
-    request.body.queryResult.outputContexts[0].parameters["geo-country"];
+  const country = processCountry(request);
   const team = matches.find(
     m =>
-      country.includes(m.home_team_country.includes) ||
+      country.includes(m.home_team_country) ||
       country.includes(m.away_team_country)
   );
   const HOME_OR_AWAY = country.includes(team.home_team_country)

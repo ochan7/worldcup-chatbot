@@ -9,7 +9,9 @@ let {
   listStage,
   listInGroup,
   finishedInPosition,
-  listPlayers
+  listPlayers,
+  listAllMatches,
+  weatherAtMatch
 } = require("./fulfillments");
 
 process.env.DEBUG = "dialogflow:debug";
@@ -27,6 +29,9 @@ module.exports = (request, response) => {
   intentMap.set("WhichCountriesInGroup", listInGroup(request));
   intentMap.set("WhoCameIn", finishedInPosition(request));
   intentMap.set("FavouriteTeam-Players", listPlayers(request));
-
+  intentMap.set("WhoPlaysFor", listPlayers(request));
+  intentMap.set("MatchesOf", listAllMatches(request));
+  intentMap.set("FavouriteTeamMatches", listAllMatches(request));
+  intentMap.set("WeatherAt", weatherAtMatch(request));
   agent.handleRequest(intentMap);
 };

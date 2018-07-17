@@ -5,5 +5,7 @@ module.exports = {
   listStage: require("./listStage"),
   listInGroup: require("./listInGroup"),
   finishedInPosition: require("./finishedInPosition"),
-  listPlayers: require("./listPlayers")
+  listPlayers: require("./listPlayers"),
+  listAllMatches: require("./listAllMatches"),
+  weatherAtMatch: require("./weatherAtMatch")
 };
